@@ -1,0 +1,77 @@
+.default {
+
+}
+
+.default > div {
+  display: inline-block;
+}
+
+.column {
+
+}
+
+.column > div {
+  display: block;
+}
+
+.columnReverse {
+  transform: scaleY(-1);
+}
+
+.columnReverse > div {
+  transform: scaleY(-1);
+  display: block;
+}
+
+.fluid {
+  width: 100%;
+}
+
+.page {
+  height: 800px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center > div {
+  display: inline-block;
+  height: 100%;
+  text-align: left;
+}
+
+.middle {
+  display: table;
+  width: 100%;
+}
+
+.middle > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nowrap {
+  display: table;
+}
+
+.nowrap > div {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.wrap {
+
+}
+
+.wrap > div {
+  display: inline-block;
+}
+
+.reverse {
+  direction: rtl;
+}
+
+.reverse > div {
+  display: inline-block;
+}

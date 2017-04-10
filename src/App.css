@@ -1,0 +1,21 @@
+@import url('//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css');
+
+.container {
+  background-color: #bbb;
+  border: 1px solid #000;
+  padding: 8px;
+  display: inline-block;
+}
+
+.box {
+  background: linear-gradient(to top,#fed835 20px,#ffeb3c 20px);
+
+  font-family: 'Times New Roman',Times,serif;
+  font-size: 30px;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+
+  min-width: 40px;
+  min-height: 40px;
+}
