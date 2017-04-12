@@ -1,11 +1,12 @@
 import React                from 'react'
 
+
 import Flex                 from 'components/Flex'
 import Snippet              from 'components/Snippet'
 
-import s                    from './App.css'
+import s                    from './Example.css'
 
-class App extends React.Component {
+class Example extends React.Component {
   render() {
     return (
       <Flex center>
@@ -58,4 +59,6 @@ class App extends React.Component {
   }
 }
 
-export default App
+import withStyles           from 'isomorphic-style-loader/lib/withStyles'
+
+export default withStyles(s)(Example)

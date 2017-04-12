@@ -139,12 +139,7 @@ module.exports = {
       // in the main CSS file.
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract(
-          'style',
-          'css?importLoaders=1&modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss',
-          extractTextPluginOptions
-        )
-        // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
+        loader: `isomorphic-style-loader!css?importLoaders=1&modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss`
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
